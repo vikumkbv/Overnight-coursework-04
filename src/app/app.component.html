@@ -15,30 +15,19 @@
 </div>
 
 
-<style>
-  .text-small-topic{
-    font-size: large;
-  }
-
-  h2{
-    font-size: medium;
-    text-align: center;
-  }
-</style>
-
-<h2 class="text-small-topic">Select your function from the bottom menu: </h2>
+<!--
 <ul>
   <li>
-    <h2><a target="_blank" rel="noopener" routerLink="/componet/form-additem" routerLinkActive="active">Add an Item</a></h2>
+    <h2><a target="" rel="noopener" routerLink="/componet/form-additem" routerLinkActive="active">Add an Item</a></h2>
   </li>
   <li>
     <h2><a target="_blank" rel="noopener" href="/componet/">Delete an item</a></h2>
   </li>
   <li>
-    <h2><a target="_blank" rel="noopener" href="#">List of all items</a></h2>
+    <h2><a target="_blank" rel="noopener" routerLink="/form-additem">List of all items</a></h2>
   </li>
   <li>
-    <h2><a target="_blank" rel="noopener" href="#">Borrow an item</a></h2>
+    <h2><a target="_blank" rel="noopener" routerLink="/form-listitems">Borrow an item</a></h2>
   </li>
   <li>
     <h2><a target="_blank" rel="noopener" href="#">Return an item</a></h2>
@@ -47,50 +36,26 @@
     <h2><a target="_blank" rel="noopener" href="#">Generate a report</a></h2>
   </li>
 </ul>
+-->
+
 <div class="btn-group-vertical">
 
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+  <h2 class="text-small-topic">Select your function</h2>
 
-<button type="button" class="btn btn-link">Link</button>
+  <a routerLink="/componet/form-additem"><button  type="button" class="btn btn-primary">Add Items</button></a>
+  <a routerLink="/componet/form-remitems"><button type="button" class="btn btn-secondary">Remove Items</button></a>
+  <a routerLink="/componet/form-borrowitem"> <button type="button" class="btn btn-success">Borrow Item</button></a>
+  <a routerLink="/componet/form-returnitem"><button type="button" class="btn btn-danger">Return Item</button></a>
+  <a routerLink="/componet/form-listitems"><button type="button" class="btn btn-warning">List Items</button></a>
+  <a routerLink="/componet/form-reportgen"><button type="button" class="btn btn-info">Generate report</button></a>
 
 </div>
 
-<app-form-additem></app-form-additem>
+<div class="routerLinks">
+  <router-outlet></router-outlet>
+</div>
 
-<br>
-<br>
-<br>
 <br>
 <br>
 
 <app-footer></app-footer>
-
-<!--The content below is only a placeholder and can be replaced.-->
-<!--
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
--->
