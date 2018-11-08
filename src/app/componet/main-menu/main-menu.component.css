@@ -1,0 +1,27 @@
+.text-small-topic {
+  font-size: large;
+}
+
+h2 {
+  font-size: medium;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.welcome {
+  margin-left: -43%;
+}
+
+button {
+  margin: 10px;
+  width: 16.65%;
+  alignment: center;
+  color: white;
+}
+
+.btncenter {
+  margin-left: 34%;
+  width: 60%;
+}
+
+
