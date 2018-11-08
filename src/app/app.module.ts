@@ -13,6 +13,7 @@ import { FormListitemsComponent } from './componet/form-listitems/form-listitems
 import { FormRemitemsComponent } from './componet/form-remitems/form-remitems.component';
 import { ItemBookComponent } from './componet/item-book/item-book.component';
 import { ItemDvdComponent } from './componet/item-dvd/item-dvd.component';
+import { MainMenuComponent } from './componet/main-menu/main-menu.component';
 
 const appRoutes: Routes = [
   { path: 'componet/form-additem', component: FormAdditemComponent },
@@ -22,6 +23,7 @@ const appRoutes: Routes = [
   { path: 'componet/form-reportgen', component: FormReportgenComponent },
   { path: 'componet/form-returnitem', component: FormReturnitemComponent },
   { path: 'componet/item-book', component: ItemBookComponent },
+  { path: 'componet/main-menu', component: MainMenuComponent },
   { path: 'componet/item-dvd', component: ItemDvdComponent }
 ];
 
@@ -38,6 +40,7 @@ const appRoutes: Routes = [
     FormReturnitemComponent,
     ItemBookComponent,
     ItemDvdComponent,
+    MainMenuComponent,
   ],
   imports: [
     RouterModule.forRoot(
