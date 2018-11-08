@@ -1,4 +1,79 @@
+<app-navbar></app-navbar>
+
+<div style="text-align:center">
+    <br>
+  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+       width="50" height="50"
+       viewBox="0 0 252 252"
+       style="fill:#3498db;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none"
+       stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+       stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+       font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,252v-252h252v252z"
+       fill="none"></path><g id="original-icon" fill="#3498db"><g id="surface1">
+       <path d="M121.15385,0c-1.62801,0 -3.40745,0.34075 -4.84615,1.21154l-111.76442,67.84615c-3.63462,2.19592 -5.33834,6.66346 -4.24038,10.90385c1.09795,4.24038 4.88401,7.26923 9.08654,7.26923h223.52885c5.14904,0 9.38942,-4.3161 9.38942,-9.69231c0,-4.08894 -2.34735,-7.64783 -5.75481,-9.08654l-110.85577,-67.24038c-1.4387,-0.87079 -2.91526,-1.21154 -4.54327,-1.21154zM121.15385,32.40865c11.50962,0 20.89904,9.38942 20.89904,20.89904c0,11.50962 -9.38942,20.89904 -20.89904,20.89904c-11.50962,0 -20.89904,-9.38942 -20.89904,-20.89904c0,-11.50962 9.38942,-20.89904 20.89904,-20.89904zM9.69231,96.92308v9.69231c0,5.33834 4.35397,9.69231 9.69231,9.69231v77.53846h29.07692v-77.53846c5.33834,0 9.69231,-4.35397 9.69231,-9.69231v-9.69231zM67.84615,96.92308v9.69231c0,5.33834 4.35397,9.69231 9.69231,9.69231v77.53846h29.07692v-77.53846c5.33834,0 9.69231,-4.35397 9.69231,-9.69231v-9.69231zM126,96.92308v9.69231c0,5.33834 4.35397,9.69231 9.69231,9.69231v77.53846h29.07692v-77.53846c5.33834,0 9.69231,-4.35397 9.69231,-9.69231v-9.69231zM184.15385,96.92308v9.69231c0,5.33834 4.35397,9.69231 9.69231,9.69231v77.53846h29.07692v-77.53846c5.33834,0 9.69231,-4.35397 9.69231,-9.69231v-9.69231zM19.38462,203.53846v19.38462h-9.69231c-5.33834,0 -9.69231,4.35397 -9.69231,9.69231v9.69231c0,5.33834 4.35397,9.69231 9.69231,9.69231h222.92308c5.33834,0 9.69231,-4.35397 9.69231,-9.69231v-9.69231c0,-5.33834 -4.35397,-9.69231 -9.69231,-9.69231h-9.69231v-19.38462z"></path></g></g><path d="M126,252c-69.58788,0 -126,-56.41212 -126,-126v0c0,-69.58788 56.41212,-126 126,-126h0c69.58788,0 126,56.41212 126,126v0c0,69.58788 -56.41212,126 -126,126z" fill="none"></path><path d="M126,246.96c-66.80436,0 -120.96,-54.15564 -120.96,-120.96v0c0,-66.80436 54.15564,-120.96 120.96,-120.96v0c66.80436,0 120.96,54.15564 120.96,120.96v0c0,66.80436 -54.15564,120.96 -120.96,120.96z" fill="none"></path><path d="" fill="none"></path><path d="" fill="none"></path></g></g></svg>
+  <br><h2>Welcome to Library management system</h2><br><br>
+</div>
+
+
+<style>
+  .text-small-topic{
+    font-size: large;
+  }
+
+  h2{
+    font-size: medium;
+    text-align: center;
+  }
+</style>
+
+<h2 class="text-small-topic">Select your function from the bottom menu: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" routerLink="/componet/form-additem" routerLinkActive="active">Add an Item</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="/componet/">Delete an item</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="#">List of all items</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="#">Borrow an item</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="#">Return an item</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="#">Generate a report</a></h2>
+  </li>
+</ul>
+<div class="btn-group-vertical">
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+</div>
+
+<app-form-additem></app-form-additem>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<app-footer></app-footer>
+
 <!--The content below is only a placeholder and can be replaced.-->
+<!--
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -18,3 +93,4 @@
   </li>
 </ul>
 
+-->
