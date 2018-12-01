@@ -1,4 +1,27 @@
-.leftpane{
-  border-color: teal;
-  border: 5px;
+.cardcss {
+  width: 75rem;
+  margin-left: 6%;
+}
+
+.footercss {
+  background-color: white;
+  border-top: none;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
 }

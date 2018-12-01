@@ -1,35 +1,75 @@
 <div class="container">
-  <h2>Hover Rows</h2>
-  <p>The .table-hover class enables a hover state on table rows:</p>
-  <table class="table table-hover">
-    <thead>
-    <tr>
-      <th>Firstname</th>
-      <th>Lastname</th>
-      <th>Email</th>
-      <th>ISBN</th>
-      <th>No of Pages</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>John</td>
-      <td>Doe</td>
-      <td>john@example.com</td>
-    </tr>
-    <tr>
-      <td>Mary</td>
-      <td>Moe</td>
-      <td>mary@example.com</td>
-    </tr>
-    <tr>
-      <td>July</td>
-      <td>Dooley</td>
-      <td>july@example.com</td>
-    </tr>
-    </tbody>
-  </table>
-</div>
+  <div class="row">
 
-</body>
-</html>
+
+    <div class="col-md-12">
+      <h4>List of items</h4>
+      <div class="table-responsive">
+
+
+        <table id="mytable" class="table table-bordred table-striped">
+
+          <thead>
+
+          <th>Type</th>
+          <th>ISBN</th>
+          <th>Topic</th>
+          <th>Author Details</th>
+          <th>Publisher/Creator</th>
+          <th>In</th>
+          <th>Borrowed</th>
+          </thead>
+          <tbody>
+
+          <tr>
+            <td>Book</td>
+            <td>2324DFFCS</td>
+            <td>Object oriented JAVA</td>
+            <td>Sashika Sandeepana</td>
+            <td>ISDT india</td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+          </tr>
+
+          <tr>
+            <td>Book</td>
+            <td>we54d5s121</td>
+            <td>MySQL</td>
+            <td>Danu de silva</td>
+            <td>Printing co</td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+          </tr>
+
+
+          <tr>
+            <td>Book</td>
+            <td>sa564s8a</td>
+            <td>AngularJs</td>
+            <td>Robert w. perera</td>
+            <td>T & A printing</td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+          </tr>
+
+
+
+          <tr>
+            <td>DVD</td>
+            <td>ds5d445</td>
+            <td>Be a pro in photoshop cc 2019 </td>
+            <td>Mark filtix</td>
+            <td>Digital work production</td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+            <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+          </tr>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+  </div>
+</div>

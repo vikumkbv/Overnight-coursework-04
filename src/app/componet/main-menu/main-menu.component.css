@@ -18,10 +18,15 @@ button {
   alignment: center;
   color: white;
 }
-
+/*
 .btncenter {
   margin-left: 34%;
   width: 60%;
 }
+*/
 
+.btncenter{
+  text-align: center;
+
+}
 
